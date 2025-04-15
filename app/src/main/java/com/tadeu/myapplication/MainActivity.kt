@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
 
+        // Does this change applied in the entire stack automatically? Let's force a conflict
         //CONFLICT!!! Does this change applied in the entire stack automatically?
 
         setContentView(R.layout.activity_main)
